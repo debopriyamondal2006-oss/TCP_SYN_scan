@@ -1,0 +1,10 @@
+# Nmap 7.95 scan initiated Mon Oct 20 09:12:22 2025 as: /usr/lib/nmap/nmap -sS -Pn -oN scanme.txt 192.168.147.159
+Nmap scan report for 192.168.147.159
+Host is up (0.025s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE SERVICE
+21/tcp   open  ftp
+554/tcp  open  rtsp
+1723/tcp open  pptp
+
+# Nmap done at Mon Oct 20 09:12:27 2025 -- 1 IP address (1 host up) scanned in 5.56 seconds
